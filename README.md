@@ -1,4 +1,5 @@
 # Currency Conversion Neural Network
+ESte proyecto se centró en desarrollar una red neuronal capaz de realizar conversiones entre distintas divisas. Se llevó a cabo un proceso de recopilación de datos y una vez preparados, se procedió al diseño y entrenamiento de la red neuronal. Durante esta fase, se utilizó un enfoque de aprendizaje supervisado para ajustar iterativamente el modelo a los datos conocidos. Posteriormente, se realizaron pruebas para evaluar su rendimiento y precisión en la conversión de divisas, incluyendo la comparación con datos reales y la identificación de posibles áreas de mejora en la arquitectura del modelo.
 
 Este repositorio consta de dos archivos, uno para el manejo principal y otro para las funciones de conversión.
 

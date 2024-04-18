@@ -30,7 +30,7 @@ def reading_yen():
 # Conjunto de entrenamiento
 def get_data_train(euros,dolars):
     # Obtenemos el 60% del conjunto de datos como conjunto de entrenamiento. Coloca el 40% restante en variables temporales."
-    x_train, x_, y_train, y_ = train_test_split(euros, dolars, test_size=0.40, random_state=80)
+    x_train, x_, y_train, y_ = train_test_split(euros, dolars, test_size=0.40, random_state=42)
 
     print(f"the shape of the training set (input) is: {x_train.shape}")
     print(f"the shape of the training set (target) is: {y_train.shape}\n")
